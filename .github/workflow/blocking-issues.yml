@@ -1,0 +1,17 @@
+# run on: issue and PR
+
+name: Blocking Issues
+
+on: 
+  issues:
+    types: [opened, edited, deleted, closed, reopened]
+  pull_request_target: 
+    types: [opened, edited, closed, synchronize, reopened]
+    
+jobs: 
+  blocking_issues: 
+    runs-on: ubuntu-latest
+    name: Checks for blocking issues or PRs
+    
+    steps: 
+      - uses: Levi-Lesches/blocking-issue@v0.1
