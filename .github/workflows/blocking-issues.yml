@@ -14,4 +14,4 @@ jobs:
     name: Checks for blocking issues or PRs
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues
+      - uses: Levi-Lesches/blocking-issues@main
