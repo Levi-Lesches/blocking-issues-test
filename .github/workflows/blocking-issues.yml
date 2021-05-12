@@ -15,5 +15,3 @@ jobs:
     
     steps: 
       - uses: Levi-Lesches/blocking-issues@main
-        with: 
-          token: ${{ secrets.TOKEN }}
