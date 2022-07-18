@@ -13,3 +13,9 @@ jobs:
     
     steps: 
       - uses: Levi-Lesches/blocking-issues@label-config
+        with: 
+          # Optional: Configure the label applied to blocked issues
+          label-name: dependent-issue
+          label-color: ffffff
+          label-description: This issue is waiting for one or more issues to be closed.
+
