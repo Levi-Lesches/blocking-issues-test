@@ -12,7 +12,7 @@ jobs:
     name: Checks for blocking issues
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues@label-config
+      - uses: Levi-Lesches/blocking-issues@main
         with: 
           # Optional: Configure the label applied to blocked issues
           label-name: dependent-issue
