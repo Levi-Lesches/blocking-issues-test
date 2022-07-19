@@ -12,7 +12,7 @@ jobs:
     name: Checks for blocking issues
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues@main
+      - uses: Levi-Lesches/blocking-issues@empty-body
         with: 
           # Optional: Configure the label applied to blocked issues
           label-name: blocked
