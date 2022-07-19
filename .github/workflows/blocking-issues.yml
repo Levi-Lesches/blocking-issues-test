@@ -12,7 +12,7 @@ jobs:
     name: Checks for blocking issues
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues@invalid-reference
+      - uses: Levi-Lesches/blocking-issues@v1
         with: 
           # Optional: Configure the label applied to blocked issues
           label-name: blocked
