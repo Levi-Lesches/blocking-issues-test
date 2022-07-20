@@ -14,8 +14,5 @@ jobs:
     steps: 
       - uses: Levi-Lesches/blocking-issues@use-label
         with: 
-          # Optional: Configure the label applied to blocked issues
-          label-name: blocked
-          label-color: 000000
-          label-description: This PR is waiting for one or more issues to be closed.
+          use-label: "blocked issue"
 
