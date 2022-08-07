@@ -12,7 +12,5 @@ jobs:
     name: Checks for blocking issues
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues@v2
-        with: 
-          use-label: "blocked issue"
+      - uses: Levi-Lesches/blocking-issues@main
 
