@@ -12,5 +12,5 @@ jobs:
     name: Checks for blocking issues
     
     steps: 
-      - uses: Levi-Lesches/blocking-issues@main
+      - uses: Levi-Lesches/blocking-issues@node20
 
